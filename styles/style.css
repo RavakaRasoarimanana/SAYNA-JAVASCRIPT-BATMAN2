@@ -1,0 +1,239 @@
+html{color: white;
+scroll-behavior:smooth;}
+@font-face {
+    font-family: "radj";
+    src: url(Rajdhani-Medium.ttf);
+}
+@font-face {
+    font-family: "spacegrotesk";
+    src: url(SpaceGrotesk-Regular.ttf);
+}
+@font-face {
+    font-family: "spgro";
+    src: url(SpaceGrotesk-Bold.ttf);
+}
+
+@font-face {
+    font-family: "bouton";
+    src: url(Rajdhani-Medium.ttf);
+}
+@font-face {
+    font-family: "pied";
+    src: url(SpaceGrotesk-Regular.ttf);
+}
+@font-face {
+    font-family: "figure";
+    src: url(Rajdhani-Regular.ttf);
+}
+
+header{background-image: url("Bathome1.png");
+background-repeat: no-repeat;
+background-size: cover;}
+
+.tête{display: flex;
+justify-content: space-between;
+border: #C4C4C4 300px;
+margin: 5px;}
+
+#introduction{display: flex;
+justify-content: center;
+text-align: center;}
+
+
+
+.intro{font-family:"spacegrotesk";
+text-align: center;
+display: flex;
+justify-content: center;
+}
+
+#jeux{background-image: url("../Illustrations/Batgame_1.png");
+background-repeat: no-repeat;
+background-size: cover;}
+
+
+body{background-color: black;
+font-family:url("SpaceGrotesk-Medium.ttf");}
+
+.icon{margin-top: 5%;}
+h1{font-family:"radj";
+font-size:36px;
+margin-left: 70%;
+margin-top: 5%;
+float: right;}
+
+.contacts{
+display:flex;
+flex-direction: column;
+float: right;
+position: fixed;
+margin-left: 1200px;
+}
+
+.milieu:hover{background-color: yellow ;
+}
+
+.côte:hover{background-color: yellow;}
+
+.côte{width: 100%;
+    margin: 80px,0px,80px,80px;}
+
+.milieu{width: 40%;
+display: flex;
+justify-content: center;}
+
+.social{display:initial;
+flex-direction: column;
+align-items: center;
+margin-left: 40%;
+width: 40px;}
+
+
+button{
+    color: white;
+    font-family: "bouton";
+font-size: 20px;
+width: 200px;
+padding: 10px;
+display: flex;
+justify-content: center;}
+
+.menu,.confirmer, .choice{display: flex;
+justify-content: center;
+}
+
+.kunai{width: 10%;}
+
+.fléche{display: flex;
+    justify-content: center;
+    margin-top: 200px;
+}
+.fléche2:hover{width: 10%;}
+.bruce{width: 20%;
+    margin-left: 65%;
+
+}
+
+.newsletter{background-color: #0D0E09;
+    color: #C4C4C4;}
+
+h2{margin-left: 10%;
+font-family: "spgro" ;
+font-size: 22px;}
+.acteurs,.advérsaire, .amis{display: flex;
+margin: 0 auto;
+width:fit-content;
+}
+
+.Alliés,.Nemesis, .histoire, .heros{margin-left: 10%;
+margin-right: 15%;
+text-align: justify;}
+
+figcaption{text-align: center;
+font-family: "figure"
+;font-size: 18px;
+}
+
+.annonce{display: flex;
+justify-content: center;}
+
+.invitation{color: white;
+text-align: center;
+padding-top: 30px;}
+
+.poster{
+width:92%;
+display: flex;
+justify-content: center;}
+
+.multimédia{display: flex;
+justify-content: center;
+flex-direction: row;
+margin:5%;}
+.synopsys{margin: 5px;
+background-color:#0D0E09;
+text-align: justify;
+width: 50%;}
+.scroll{width: 5%;
+height: 5%;
+margin: 5%;}
+.foot{justify-items: center;
+font-style: "pied";
+margin-top: 200px;
+font-size: 12px;}
+.pied, .fin{ 
+display: flex;
+justify-content: center;
+font-family: "pied";}
+.message, .auteur{ display: flex;
+    justify-content: center;
+    text-align: center;
+font-family: "spacegrotesk";
+font-size: 12px;}
+
+.proverbe{display: flex;
+justify-content: center;
+text-align: center;}
+
+input{background-color:#0D0E09;
+color: #C4C4C4;
+font-family: "spgro";
+width:100%;
+border-top: white;}
+
+.adresse{margin: 10%;}
+
+select{background-color: #0D0E09;
+color: #C4C4C4;
+border: none;
+font-family: "spgro";
+}
+#deroulant{width: 100%;
+border-top: white;}
+form{border-top: white;
+font-family: "spgro";}
+
+.ok, .navigation{ display: flex;
+justify-content: justify;
+border: none;
+background:linear-gradient(10deg,#EDDEBF 40%,#890008 60%);
+margin: 10px;}
+
+p{font-family: "pied";
+font-size: 18px;}
+.choix{
+background-color:#0D0E09;
+border:linear-gradient(#EDDBDF 40%#19587D 40%), 2px;
+margin: 10px;}
+
+.choix:hover{background-color: white;
+color: #0D0E09;}
+
+
+.choice{border:linear-gradient(#EDDBDF 40%#19587D 40%), 2px;
+    display: flex;
+justify-content: center ;}
+h3{font-family: "spacegrotesk";
+align-items: center;}
+h4{font-family: "Rajdhani";}
+
+.haut{float: left;
+width: 50px;
+margin:0}
+.bas{float: right;
+width: 50px;
+margin:0;}
+
+.collaboration{display: flex;
+    justify-content: center;
+margin-right: 20px;
+align-items: center;}
+.social2{
+display: flex;
+justify-content: center;}
+
+.titre{display: flex;
+justify-content: flex-end;
+color: white;}
+
+a{color: white;}
